@@ -9,16 +9,16 @@ Gem::Specification.new do |s|
 	s.version     = Uovalid::VERSION
 	s.authors     = ["Andrei Potetiurin"]
 	s.email       = ["sickphilosopher@gmail.com"]
-	s.homepage    = "TODO"
+	s.homepage    = "https://github.com/Sickphilosopher/uovalid"
 	s.summary     = "Unobtrusive validation for rails (like asp.net mvc)"
-	s.description = "TODO: Description of Uovalid."
+	s.description = "Simple adapter for jquery client-side validation. Idea was stollen from ASP.NET MVC"
 	s.license     = "MIT"
 
 	s.files = `git ls-files -z`.split("\x0")
 	s.test_files		= s.files.grep(%r{^(spec)/})
 	s.require_paths = ["lib"]
 	
-	s.add_dependency "rails", "~> 4.2.5"
+	s.add_dependency "rails", '~> 4.2', '>= 4.2.5'
 	s.add_dependency "jquery-rails"
 	s.add_dependency "jquery-validation-rails"
 	

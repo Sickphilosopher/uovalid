@@ -1,3 +1,9 @@
+[![Build Status](http://img.shields.io/travis/Sickphilosopher/uovalid.svg?style=flat-square)](https://travis-ci.org/Sickphilosopher/uovalid)
+[![Dependency Status](http://img.shields.io/gemnasium/Sickphilosopher/uovalid.svg?style=flat-square)](https://gemnasium.com/Sickphilosopher/uovalid)
+[![Code Climate](http://img.shields.io/codeclimate/github/Sickphilosopher/uovalid.svg?style=flat-square)](https://codeclimate.com/github/Sickphilosopher/uovalid)
+[![Gem Version](http://img.shields.io/gem/v/uovalid.svg?style=flat-square)](https://rubygems.org/gems/uovalid)
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://Sickphilosopher.mit-license.org)
+
 # RailsBlocks
 
 Gem for unobtrusive validation in rails.

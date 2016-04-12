@@ -1,3 +1,11 @@
 language: ruby
 rvm:
-  - 2.2
+- 2.2
+deploy:
+  provider: rubygems
+  api_key:
+    secure: gcGXoIo/wynnN8JHryrCQbpgvk0gJaW0dNTCQg+cG/v5MKLrDyJN0Qsq3kjRbjfHU5n0vglJT6nINjiu2nlQbvTUTQc+KTTglvfXnCvUJkPS9uZaJ11Lb8V3oKJ6UksJHFCUp9CBxO6fbM/UYIPRJ/HlpLzHQwH64sBg7YnITPQnWnMst6ZcErIBTYdNx01zvR94fl+z+EPpCsyk1LhBWb0aUn6+kEk3pBDpE50OGa9y2oKhQqj/7PWSz2z9R78Y1me5k6z6iZJtuWpjjfGGzL+z4PxVWOeF7hADdUksNaPqcqUP8pvkVDkiqD7tGnhnDnEL05Dbb6QzVCweWTWfMr2QbJno4gItLhYG2HrtoPZAX7i5Mla04+Wx4qZs4GksThFAjnQn5x8M8pQDil2PQL/QcLXqoC7h3MavtaoImAgi5YQrRLDpfVLI5+7cAhOoPHf9Cu0I9sYiXtIA4z6KmJW/rPn8rqq0f126YmPifXlvQTpFwlN324Y9rCQTbk8nEmKRrXqkGxcp0TcQk98Kv6EEn0gHCYrPaTPU8PnV+OWqiIY9VheFPDYtX4rfbVy7kiReMxQkXfE0Q/RjrWamdKFNHAUCYnS1WhYTvZPhLfWO61Iu6H85mHqJsWotiQQDpUScjRDI/MKNa4B4VtNGBuL2kelsQa028VdIB1hvs/U=
+  gem: uovalid
+  on:
+    tags: true
+    repo: Sickphilosopher/uovalid
