@@ -5,18 +5,37 @@ require "uovalid/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "uovalid"
-  s.version     = Uovalid::VERSION
-  s.authors     = ["Andrei Potetiurin"]
-  s.email       = ["sickphilosopher@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Uovalid."
-  s.description = "TODO: Description of Uovalid."
-  s.license     = "MIT"
+	s.name        = "uovalid"
+	s.version     = Uovalid::VERSION
+	s.authors     = ["Andrei Potetiurin"]
+	s.email       = ["sickphilosopher@gmail.com"]
+	s.homepage    = "TODO"
+	s.summary     = "Unobtrusive validation for rails (like asp.net mvc)"
+	s.description = "TODO: Description of Uovalid."
+	s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-
-  s.add_dependency "rails", "~> 4.2.5"
-
-  s.add_development_dependency "sqlite3"
+	s.files = `git ls-files -z`.split("\x0")
+	s.test_files		= s.files.grep(%r{^(spec)/})
+	s.require_paths = ["lib"]
+	
+	s.add_dependency "rails", "~> 4.2.5"
+	s.add_dependency "jquery-rails"
+	s.add_dependency "jquery-validation-rails"
+	
+	#testing
+	s.add_development_dependency 'combustion', '~> 0.5.3'
+	s.add_development_dependency 'bundler', '~> 1.7'
+	s.add_development_dependency 'rspec', '~> 3.3'
+	s.add_development_dependency 'rspec-rails', '~> 3.0'
+	s.add_development_dependency 'rspec-nc'
+	s.add_development_dependency 'capybara'
+	s.add_development_dependency 'memfs'
+	s.add_development_dependency 'spring'
+	s.add_development_dependency 'guard'
+	s.add_development_dependency 'guard-rspec'
+	s.add_development_dependency 'pry'
+	s.add_development_dependency 'pry-remote'
+	s.add_development_dependency 'pry-nav'
+	s.add_development_dependency 'terminal-notifier'
+	s.add_development_dependency 'terminal-notifier-guard'
 end

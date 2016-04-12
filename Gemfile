@@ -13,3 +13,8 @@ gemspec
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
 
+group :test do
+	gem 'actionpack' # action_controller, action_view
+	gem 'sprockets'
+	gem 'slim-rails'
+end
