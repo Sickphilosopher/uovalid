@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
 	s.email       = ["sickphilosopher@gmail.com"]
 	s.homepage    = "https://github.com/Sickphilosopher/uovalid"
 	s.summary     = "Unobtrusive validation for rails (like asp.net mvc) (ONLY INIT COMMIT, IN WORK)"
-	s.description = "Simple adapter for jquery client-side validation. Idea was stollen from ASP.NET MVC"
+	s.description = "Simple adapter for jquery client-side validation. Idea was stollen from ASP.NET MVC (ONLY INIT COMMIT, IN WORK)"
 	s.license     = "MIT"
 
 	s.files = `git ls-files -z`.split("\x0")
