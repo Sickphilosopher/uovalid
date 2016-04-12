@@ -4,6 +4,9 @@
 [![Gem Version](http://img.shields.io/gem/v/uovalid.svg?style=flat-square)](https://rubygems.org/gems/uovalid)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://Sickphilosopher.mit-license.org)
 
+
+# NOT YET ANY FUNCTIONALITY
+
 # RailsBlocks
 
 Gem for unobtrusive validation in rails.
