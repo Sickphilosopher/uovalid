@@ -6,8 +6,7 @@ require 'combustion'
 require 'capybara/rspec'
 require 'memfs'
 
-Combustion.initialize! :action_controller,
-	:action_view, :sprockets
+Combustion.initialize! :all
 
 require 'rspec/rails'
 require 'capybara/rails'

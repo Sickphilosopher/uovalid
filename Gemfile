@@ -17,4 +17,5 @@ group :test do
 	gem 'actionpack' # action_controller, action_view
 	gem 'sprockets'
 	gem 'slim-rails'
+	gem 'pg'
 end
