@@ -220,6 +220,7 @@ DEPENDENCIES
   pry
   pry-nav
   pry-remote
+  rake
   rspec (~> 3.3)
   rspec-nc
   rspec-rails (~> 3.0)

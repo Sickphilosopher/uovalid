@@ -14,6 +14,7 @@ gemspec
 # gem 'byebug', group: [:development, :test]
 
 group :test do
+	gem 'rake'
 	gem 'actionpack' # action_controller, action_view
 	gem 'sprockets'
 	gem 'slim-rails'
